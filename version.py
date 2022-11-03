@@ -64,10 +64,10 @@ def getNewVersion(version):
     if sys.argv[1] == 'major':
         new['major'] = version.major + 1
         new['minor'] = 0
-        new['patch'] = 0
+        new['micro'] = 0
     elif sys.argv[1] == 'minor':
         new['minor'] = version.minor + 1
-        new['patch'] = 0
+        new['micro'] = 0
     elif sys.argv[1] == 'patch':
         new['micro'] = version.micro + 1
     return ("%s.%s.%s" % (new['major'], new['minor'], new['micro']))
