@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import sys, os
-import git
 import pprint as pp
 import yaml
 import packaging.version as version
@@ -109,6 +108,7 @@ def updateVersion(oldVersion, newVersion):
         os.system('git tag %s' % newVersion)
         # push the tag
         os.system('git push origin %s' % newVersion)
+        os.system('git push origin --tags')
         # push the branch
         os.system('git push origin')
     else:
