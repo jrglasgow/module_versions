@@ -30,3 +30,10 @@ Update the minor version, i.e. from 1.2.13 to 1.3.0
 Update the major version, i.e. from 1.3.0 to 2.0.0
 
 ```update major```
+
+
+## Contributing
+If you would like to contribute to this project please create a merge request.
+
+## Project status
+As I am currently developing Drupal modules I constantly am needing to create new realses, this makes it easier so I will keep worjing on it.
