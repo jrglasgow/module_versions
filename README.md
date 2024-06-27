@@ -15,7 +15,8 @@ This python script will do the following
 
 - clone the repository
 - Change to the repository directory ```cd module_versions```
-- [activate the virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#activate-a-virtual-environment)
+- ensure pip is installed; e.g. `sudo apt-get install python3-pip`
+- [activate the virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#activate-a-virtual-environment) - `source bin/activate`
 - install dependencies ```python -m pip install -r requirements.txt```
 
 ## Usage
