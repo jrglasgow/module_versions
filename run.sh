@@ -1,8 +1,11 @@
 #!/bin/bash
 
-source /Users/james/bin/version/bin/activate;
-/Users/james/bin/version/version.py $1
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 
- deactivate
+source ${SCRIPT_DIR}/bin/activate;
+${SCRIPT_DIR}/version.py $1
+
+
+deactivate
 
